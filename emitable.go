@@ -34,6 +34,12 @@ type QuickReply struct {
 	Replies []string
 }
 
+// Sleep is a struct to represent that the bot should pause
+// for some length of time.
+type Sleep struct {
+	LengthMillis int
+}
+
 // Typing is a struct to represent that the bot is typing.
 // It is expected to be enabled and disabled
 type Typing struct {
