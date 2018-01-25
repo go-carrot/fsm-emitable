@@ -30,8 +30,9 @@ type Video struct {
 // QuickReply is a struct that represents an array of
 // possible responses from a user
 type QuickReply struct {
-	Message string
-	Replies []string
+	Message       string
+	Replies       []string
+	RepliesFormat string
 }
 
 // Sleep is a struct to represent that the bot should pause
